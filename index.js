@@ -11,7 +11,7 @@
   
     _public.DownloadApk = function () {
       setTimeout(function() {
-        location.href = "downloads/app-release.apk";
+        location.href = window.origin + "/downloads/app-release.apk";
       }, 4000);
       setTimeout(function() {
         $('#baixandoApk').addClass('none');
