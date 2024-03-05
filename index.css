@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100%;
+    background-color: #eaeceb;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0;
+    min-height: 100%;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.color-pink {
+    color: #FF0F64;
+}
+.none{
+    display:none;
+}
+#apkBaixado{
+    display:none;position: absolute; top: 48%; transform: translateY(-50%); width: 100%;
+}
+#baixandoApk{
+    position: absolute; top: 48%; transform: translateY(-50%); width: 100%;
+}
+
+.container_footer {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    z-index: 10;
+    color: #fff;
+}
+
+.container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    z-index: 10;
+}
